@@ -1,9 +1,6 @@
 % AND GATE
 
-clc; clear all; close all;
-
-
-function output = and(a, b)
+function output = And1(a,b)
 
 out = -1;
 if (a+b == 0)

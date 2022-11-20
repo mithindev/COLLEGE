@@ -9,6 +9,7 @@ int main() {
 
   float d = 12e3; // equivalent to 12 * 10^3
 
+
   double f;
   f = 1234.694;
 

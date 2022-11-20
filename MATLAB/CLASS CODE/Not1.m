@@ -1,9 +1,7 @@
 % NOT GATE
 
-clc; clear all; close all;
 
-
-function output = not(a)
+function output = Not1(a)
 
 out = -1;
 if a == 0
