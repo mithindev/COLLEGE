@@ -1,5 +1,6 @@
 {
   "files.associations": {
     "PS1-S1.C": "cpp"
-  }
+  },
+  "C_Cpp.errorSquiggles": "Disabled"
 }

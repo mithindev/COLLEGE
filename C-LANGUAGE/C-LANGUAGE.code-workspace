@@ -1,8 +1,11 @@
 {
-	"folders": [
-		{
-			"path": "C-LANGUAGE"
-		}
-	],
-	"settings": {}
+  "launch": {
+    "version": "0.2.0",
+    "configurations": []
+  },
+  "folders": [
+    {
+      "path": "C-LANGUAGE"
+    }
+  ]
 }

@@ -7,5 +7,5 @@ void main() {
   printf("Enter the given number :");
   scanf("%d",num);
   b = num%2;
-  printf(bool(b));
+  boolean(b)
 }

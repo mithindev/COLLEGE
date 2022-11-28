@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-void main() {
+// Q-9]C Program to swap two numbers.
+
+void main()
+{
   int num1,num2,temp;
   print("Enter a number :");
   scanf("%d",&num1);
@@ -12,5 +15,4 @@ void main() {
   num2 = temp;
 
   printf("After swapping num1 = %d, num2 = %d",num1,num2);
-
 }
