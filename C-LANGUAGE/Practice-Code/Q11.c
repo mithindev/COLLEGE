@@ -5,7 +5,8 @@
 void main() {
   int num, b;
   printf("Enter the given number :");
-  scanf("%d",num);
-  b = num%2;
-  boolean(b)
+  scanf("%d",&num);
+  (num % 2 == 0) ? printf("Even") : printf("Odd");
+
+  // (age >= 18) ? printf("Can Vote") : printf("Cannot Vote");
 }
