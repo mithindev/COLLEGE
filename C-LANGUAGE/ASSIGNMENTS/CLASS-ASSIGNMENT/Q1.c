@@ -1,5 +1,5 @@
 #include <stdio.h>
-// #include <stdbool.h>
+
 
 // QUESTION-1]C Program to check whether a number can be expressed as the
 // sum of two prime numbers.(use user defined functions to find the
@@ -29,7 +29,7 @@ int prime(int num) {
   // if (num < 2) {
   //     return 0;
   // }
-  // for (int i = 2; i * i < num; i++) {
+  // for (int i = 2; i * i <= num; i++) {
   //   if (num%i == 0) {
   //     return 0;      
   //   }

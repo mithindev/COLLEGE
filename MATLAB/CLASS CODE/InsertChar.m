@@ -1,7 +1,5 @@
 % Insert char function
 
-clc; clear all; close all;
-
 function [output] = insertChar(set, ch)
 No_Of_Iterations = length(set) + 1;
 output = [];
