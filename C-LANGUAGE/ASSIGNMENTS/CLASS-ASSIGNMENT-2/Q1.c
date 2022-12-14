@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// Q-1]C Program to find the average of n numbers using arrays
 
 void main() {
   int n;
@@ -11,6 +12,7 @@ void main() {
   for (int j = 0; j < n; j++){
     scanf("%f", &arr[j]);
   }
+  
   float sum = 0;
   
   for (int i = 0; i < n; i++) {
