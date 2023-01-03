@@ -3,4 +3,4 @@
 clc; clear all; close all;
 
 A = ['abcd'];
-perms(A)
+numel(A)
