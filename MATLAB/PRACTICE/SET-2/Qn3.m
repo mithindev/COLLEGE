@@ -1,11 +1,17 @@
 clc; clear; close all;
 
-x = linspace(3.5,10,100);
+t = linspace(0.01,6,100);
 
-A = (3/2)*(x.*x)./((x-3));
-Ad = (3/2)*((x.*x)-6*x)./((x-3).^2);
+st = (2)*(t.^3)-24*t+10;
+vt = 6*(t.^2)-24;
+at = 12*t;
 
-plot(x,A);
+%displacement
+plot(t,st);
 hold on
-plot(x,Ad);
+%velocity
+plot(t,vt);
+hold on
+%accleration
+plot(t,at);
 
