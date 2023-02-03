@@ -9,5 +9,5 @@ ydash = (sin(x+delx) - sin(x))/delx;
 plot(x, ydash);
 hold on
 plot([0 2*pi], [0 0]);
-
-
+hold on
+% plot(x,cos(x));
