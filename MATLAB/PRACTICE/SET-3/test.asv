@@ -1,0 +1,7 @@
+clc; clear; close all;
+
+sum = 0;
+
+
+
+while (sum < 5000)
