@@ -320,7 +320,7 @@ C=inv(A)
 %%
 %7
 %Code to Generate  random integer matrix with given eigen values
-clc;clear 
+clc;clear all
 rng(12345);
 B=randi([-3 3],3);
 B=B-diag(diag(B))+eye(size(B));
