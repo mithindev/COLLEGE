@@ -1,5 +1,0 @@
-A = randi([0,9],5,3)
-P = A*inv(A'*A)*A'
-C = eig(P)
-
-

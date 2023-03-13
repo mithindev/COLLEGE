@@ -1,0 +1,9 @@
+clc; clear; close all;
+w = linspace(0.01,10/3*3^(1/2),100);
+
+TSA = 60*w.*w + 800./w;
+TSAd = 120*w - 800./(w.*w);
+
+plot(w,TSA);
+hold on
+plot()
