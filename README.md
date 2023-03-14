@@ -56,7 +56,7 @@ college/
 - Mobile Application Development
 - Operating Systems
 
-##🚀 How to Use
+## 🚀 How to Use
 
 - Clone the repository using git clone https://github.com/mithindev/COLLEGE.git.
 - Navigate to the folder of the course you are interested in.
@@ -75,7 +75,7 @@ You can reach me at the following:
 
 - Email: [mithindev1@gmail.com](mailto:mithindev1@gmail.com)
 - LinkedIn: [linkedin.com/in/mithin-dev](https://www.linkedin.com/in/mithin-dev/)
-- Twitter: [@mithindev1](https://twitter.com/mithindev1)
+- Twitter: [@MithinDev](https://twitter.com/MithinDev)
 
 Let's connect and build something great together!
 
