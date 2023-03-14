@@ -1,0 +1,12 @@
+CHIP FullAdderMux81
+{
+IN in,a,b,c;   
+OUT sum,carry;  
+
+PARTS:
+
+Not(in=in,out=nin);
+Mux81(a=nin,b=in,c=in,d=nin,e=in,f=nin,g=nin,h=in,sel0=a,sel1=b,sel2=c,out=sum);
+Mux81(a=nin,b=nin,c=nin,d=in,e=nin,f=in,g=in,h=in,sel0=a,sel1=b,sel2=c,out=carry);
+
+}

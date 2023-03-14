@@ -1,0 +1,13 @@
+Table = [0 0;0 1;1 0;1 1];
+
+And_Table = [];
+
+for i = 0:1
+    for j = 0:1
+        And_Table = [And_Table;i j And1(i,j)];
+    end
+end
+
+And_Table
+
+%%
