@@ -1,11 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9acd98fb-1877-4f62-9fe1-3b57a51397f1" name="Changes" comment="" />
+    <list default="true" id="292c6a1a-a116-4b83-8357-655d6d2b355a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA/JAVA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA/src/com/Mithin/ACADEMIC/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA/src/com/Mithin/ACADEMIC/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA/src/com/Mithin/CLASS/Human.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA/src/com/Mithin/CLASS/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA/src/com/Mithin/CLASS/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA/src/com/Mithin/DSA/Calc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA/src/com/Mithin/DSA/Input.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA/src/com/Mithin/OOPS/Human.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA/src/com/Mithin/OOPS/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA/src/com/Mithin/OOPS/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPS-JAVA/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPS-JAVA/.idea/OOPS-JAVA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPS-JAVA/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPS-JAVA/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPS-JAVA/.idea/vcs.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -13,41 +46,64 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2NdbOGmUFWST9B7gsAg0cw2vepr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2Ndtk4ZA5l0RT3pyp9NE39Dmw16" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="SEM-2" />
+}</component>
+  <component name="RunManager" selected="Application.com.mithin.LINKED_LIST.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.EX1.Main" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mithin.OOPS_DEMO.EX1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="SEM-2" />
-      <option name="filePath" />
+    <configuration name="com.mithin.LINKED_LIST.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mithin.LINKED_LIST.Main" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mithin.LINKED_LIST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.mithin.LINKED_LIST.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9acd98fb-1877-4f62-9fe1-3b57a51397f1" name="Changes" comment="" />
-      <created>1679996873465</created>
+      <changelist id="292c6a1a-a116-4b83-8357-655d6d2b355a" name="Changes" comment="" />
+      <created>1680005927388</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1679996873465</updated>
+      <updated>1680005927388</updated>
     </task>
     <servers />
   </component>
