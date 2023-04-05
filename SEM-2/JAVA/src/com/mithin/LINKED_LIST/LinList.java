@@ -23,6 +23,17 @@ public class LinList {
 
     }
 
+    public void insertRec (int val, int index) {
+        Node temp = head;
+        if (index - 1 == 0) {
+            Node node = new Node(val);
+            node.next = temp.next;
+            temp.next = node;
+        } else {
+            
+        }
+    }
+
     // Display
     void display() {
         Node temp = head;
