@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="292c6a1a-a116-4b83-8357-655d6d2b355a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mithin/LINKED_LIST/LinList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/LINKED_LIST/LinList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.com.mithin.LINKED_LIST.Main">
+  <component name="RunManager" selected="Application.com.mithin.OOPS_DEMO.EX4.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.EX1.Main" />
       <module name="JAVA" />
@@ -69,8 +68,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.mithin.OOPS_DEMO.EX4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.EX4.Main" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mithin.OOPS_DEMO.EX4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.mithin.OOPS_DEMO.EX4.Main" />
         <item itemvalue="Application.com.mithin.LINKED_LIST.Main" />
         <item itemvalue="Application.Main" />
       </list>
