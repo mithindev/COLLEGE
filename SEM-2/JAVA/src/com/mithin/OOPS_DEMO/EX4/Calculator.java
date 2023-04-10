@@ -1,14 +1,15 @@
-package com.mithin.OOPS_DEMO.EX4;
-
-public class Calculator {
-    int a;
-    int b;
-
-    Calculator(int a, int b) {
-        this.a = a;
-        this.b = b;
-    }
-
-
-
-}
+//package com.mithin.OOPS_DEMO.EX4;
+//
+//public class Calculator {
+//    int a;
+//    int b;
+//
+//    public Calculator(int a, int b) {
+//        this.a = a;
+//        this.b = b;
+//    }
+//
+//
+//    public void add(double v, double v1) {
+//    }
+//}
