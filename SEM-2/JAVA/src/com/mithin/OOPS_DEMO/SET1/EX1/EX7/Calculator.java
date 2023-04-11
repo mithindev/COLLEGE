@@ -1,4 +1,4 @@
-package com.mithin.OOPS_DEMO.EX7;
+package com.mithin.OOPS_DEMO.SET1.EX1.EX7;
 
 public class Calculator {
     int a;

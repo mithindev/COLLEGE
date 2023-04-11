@@ -1,4 +1,4 @@
-package com.mithin.OOPS_DEMO.EX3;
+package com.mithin.OOPS_DEMO.SET1.EX1.EX3;
 
 public class LivingBeing {
     int eyes;

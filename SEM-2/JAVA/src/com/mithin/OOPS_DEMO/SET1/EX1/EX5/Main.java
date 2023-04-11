@@ -1,4 +1,4 @@
-package com.mithin.OOPS_DEMO.EX5;
+package com.mithin.OOPS_DEMO.SET1.EX1.EX5;
 
 
 public class Main {

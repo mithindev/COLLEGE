@@ -1,4 +1,4 @@
-package com.mithin.OOPS_DEMO.EX2;
+package com.mithin.OOPS_DEMO.SET1.EX1.EX2;
 
 public class Pen {
     String color;

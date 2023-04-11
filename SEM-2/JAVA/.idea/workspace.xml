@@ -6,6 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="292c6a1a-a116-4b83-8357-655d6d2b355a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/EX1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET1/EX1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/EX1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET1/EX1/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/EX2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET1/EX1/EX2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/EX2/Pen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET1/EX1/EX2/Pen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/EX3/LivingBeing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET1/EX1/EX3/LivingBeing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/EX3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET1/EX1/EX3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/EX4/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET1/EX1/EX4/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/EX4/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET1/EX1/EX4/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/EX4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET1/EX1/EX4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/EX4/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET1/EX1/EX4/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/EX5/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET1/EX1/EX5/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/EX5/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET1/EX1/EX5/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/EX5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET1/EX1/EX5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/EX6/CGPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET1/EX1/EX6/CGPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/EX7/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET1/EX1/EX7/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/EX7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET1/EX1/EX7/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +57,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.com.mithin.OOPS_DEMO.EX7.Main">
+  <component name="RunManager" selected="Application.com.mithin.OOPS_DEMO.SET1.EX1.EX7.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.EX1.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.SET1.EX1.Main" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mithin.OOPS_DEMO.EX1.*" />
+          <option name="PATTERN" value="com.mithin.OOPS_DEMO.SET1.EX1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.mithin.OOPS_DEMO.EX4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.EX4.Main" />
+    <configuration name="com.mithin.OOPS_DEMO.SET1.EX1.EX4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.SET1.EX1.EX4.Main" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mithin.OOPS_DEMO.EX4.*" />
+          <option name="PATTERN" value="com.mithin.OOPS_DEMO.SET1.EX1.EX4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.mithin.OOPS_DEMO.EX5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.EX5.Main" />
+    <configuration name="com.mithin.OOPS_DEMO.SET1.EX1.EX5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.SET1.EX1.EX5.Main" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mithin.OOPS_DEMO.EX5.*" />
+          <option name="PATTERN" value="com.mithin.OOPS_DEMO.SET1.EX1.EX5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.mithin.OOPS_DEMO.EX7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.EX7.Main" />
+    <configuration name="com.mithin.OOPS_DEMO.SET1.EX1.EX7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.SET1.EX1.EX7.Main" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mithin.OOPS_DEMO.EX7.*" />
+          <option name="PATTERN" value="com.mithin.OOPS_DEMO.SET1.EX1.EX7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,9 +125,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.mithin.OOPS_DEMO.EX7.Main" />
-        <item itemvalue="Application.com.mithin.OOPS_DEMO.EX5.Main" />
-        <item itemvalue="Application.com.mithin.OOPS_DEMO.EX4.Main" />
+        <item itemvalue="Application.com.mithin.OOPS_DEMO.SET1.EX1.EX7.Main" />
+        <item itemvalue="Application.com.mithin.OOPS_DEMO.SET1.EX1.EX5.Main" />
+        <item itemvalue="Application.com.mithin.OOPS_DEMO.SET1.EX1.EX4.Main" />
         <item itemvalue="Application.com.mithin.LINKED_LIST.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -127,5 +143,16 @@
       <updated>1680005927388</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

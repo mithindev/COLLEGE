@@ -1,17 +1,9 @@
 package com.mithin.OOPS_DEMO.EX1;
 
-import com.mithin.OOPS_DEMO.EX1.Student;
+import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
-        Student s1 = new Student();
-        s1.name = "Mithin Dev A";
-        s1.age = 18;
-        s1.getInfo();
+    Scanner in = new Scanner(System.in);
 
-        Student s2 = new Student();
-        s2.name = "Noah";
-        s2.age = 18;
-        s2.getInfo();
-    }
+    
 }

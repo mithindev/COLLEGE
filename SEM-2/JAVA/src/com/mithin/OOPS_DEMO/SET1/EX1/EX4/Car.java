@@ -1,4 +1,4 @@
-package com.mithin.OOPS_DEMO.EX4;
+package com.mithin.OOPS_DEMO.SET1.EX1.EX4;
 
 public class Car {
     int year;

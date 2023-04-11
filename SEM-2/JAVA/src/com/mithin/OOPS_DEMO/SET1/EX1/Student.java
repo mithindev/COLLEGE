@@ -1,4 +1,4 @@
-package com.mithin.OOPS_DEMO.EX1;
+package com.mithin.OOPS_DEMO.SET1.EX1;
 
 public class Student {
     String name;
