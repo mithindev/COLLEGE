@@ -1,4 +1,4 @@
-package com.mithin.LINKED_LIST;
+package com.mithin.LINKED_LIST.TRY1;
 
 public class Double_Lin_List {
     private Node head;
