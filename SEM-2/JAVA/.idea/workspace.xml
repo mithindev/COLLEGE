@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="292c6a1a-a116-4b83-8357-655d6d2b355a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mithin/LINKED_LIST/Double_Lin_List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/LINKED_LIST/TRY1/Double_Lin_List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mithin/LINKED_LIST/LinList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/LINKED_LIST/TRY1/LinList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mithin/LINKED_LIST/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/LINKED_LIST/TRY1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
