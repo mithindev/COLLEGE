@@ -1,8 +1,13 @@
-% 3i1 - i2 - 2i3 = 8 // m1
-% -i1 + 5i2 - 9i3 = 0 // m2
-% -2i1 - 4i2 + 9i3 = 0 // m3
+% Triangular wave
 
-A = [3 -1 -2; -1 5 -9; -2 -4 9]
-B = [8; 0; 0]
-
-Ans = pinv(A) * B
+x = linspace(0, 4 * pi, 1000);
+y(1000) = 0;
+for i = 1:1000
+    if (i<500)
+        y(i) = x(i);
+    else
+        y(i) = 12.5 - x(i);
+    end
+end
+plot(x, y);
+title("Triangle wave");
