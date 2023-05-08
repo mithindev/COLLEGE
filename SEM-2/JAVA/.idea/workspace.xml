@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="292c6a1a-a116-4b83-8357-655d6d2b355a" name="Changes" comment="" />
+    <list default="true" id="292c6a1a-a116-4b83-8357-655d6d2b355a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET2/SAMPLE1/Q8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET2/SAMPLE1/Q8/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +42,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Q2">
+  <component name="RunManager" selected="Application.com.mithin.OOPS_DEMO.SET2.SAMPLE1.Q8.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.SET2.TRASH.Main" />
       <module name="JAVA" />
@@ -58,7 +61,7 @@
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mithin.OOPS_DEMO.SET2.SAMPLE1.*" />
+          <option name="PATTERN" value="com.mithin.OOPS_DEMO.SET2.SAMPLE1.Q8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,7 +74,7 @@
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mithin.OOPS_DEMO.SET2.SAMPLE1.*" />
+          <option name="PATTERN" value="com.mithin.OOPS_DEMO.SET2.SAMPLE1.Q8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.mithin.LINKED_LIST.LL.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mithin.LINKED_LIST.LL.Main" />
+    <configuration name="com.mithin.OOPS_DEMO.SET2.SAMPLE1.Q8.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.SET2.SAMPLE1.Q8.Main" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mithin.LINKED_LIST.LL.*" />
+          <option name="PATTERN" value="com.mithin.OOPS_DEMO.SET2.SAMPLE1.Q8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.mithin.OOPS_DEMO.INHERITANCE.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.INHERITANCE.Main" />
+    <configuration name="fi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.SET2.SAMPLE1.fi" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mithin.OOPS_DEMO.INHERITANCE.*" />
+          <option name="PATTERN" value="com.mithin.OOPS_DEMO.SET2.SAMPLE1.Q8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.mithin.OOPS_DEMO.SET2.SAMPLE1.Q8.Main" />
+        <item itemvalue="Application.fi" />
         <item itemvalue="Application.Q2" />
         <item itemvalue="Application.Q1" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.com.mithin.LINKED_LIST.LL.Main" />
-        <item itemvalue="Application.com.mithin.OOPS_DEMO.INHERITANCE.Main" />
       </list>
     </recent_temporary>
   </component>
