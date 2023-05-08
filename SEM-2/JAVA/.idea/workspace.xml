@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="292c6a1a-a116-4b83-8357-655d6d2b355a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET2/TRASH/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET2/SAMPLE1/Q1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET2/SAMPLE1/Q1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/OOPS_DEMO/SET2/TRASH/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Q1">
+  <component name="RunManager" selected="Application.Q2">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.SET2.TRASH.Main" />
       <module name="JAVA" />
@@ -59,6 +57,19 @@
     </configuration>
     <configuration name="Q1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.SET2.SAMPLE1.Q1" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mithin.OOPS_DEMO.SET2.SAMPLE1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.SET2.SAMPLE1.Q2" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
@@ -96,26 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.mithin.OOPS_DEMO.SET1.EX1.EX7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.SET1.EX1.EX7.Main" />
-      <module name="JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mithin.OOPS_DEMO.SET1.EX1.EX7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q2" />
         <item itemvalue="Application.Q1" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.com.mithin.LINKED_LIST.LL.Main" />
         <item itemvalue="Application.com.mithin.OOPS_DEMO.INHERITANCE.Main" />
-        <item itemvalue="Application.com.mithin.OOPS_DEMO.SET1.EX1.EX7.Main" />
       </list>
     </recent_temporary>
   </component>
