@@ -57,7 +57,7 @@
       </method>
     </configuration>
     <configuration name="Q1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.SET2.SAMPLE1.Q1" />
+      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.SET2.SAMPLE1.Q1toQ7.Q1" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
@@ -70,7 +70,7 @@
       </method>
     </configuration>
     <configuration name="Q2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.SET2.SAMPLE1.Q2" />
+      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.SET2.SAMPLE1.Q1toQ7.Q2" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
@@ -96,7 +96,7 @@
       </method>
     </configuration>
     <configuration name="fi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.SET2.SAMPLE1.fi" />
+      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.SET2.SAMPLE1.Q1toQ7.fi" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>

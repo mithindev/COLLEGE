@@ -1,6 +1,4 @@
-package com.mithin.OOPS_DEMO.SET2.SAMPLE1;
-
-import org.w3c.dom.ls.LSOutput;
+package com.mithin.OOPS_DEMO.SET2.SAMPLE1.Q1toQ7;
 
 import java.util.Scanner;
 

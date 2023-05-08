@@ -1,4 +1,4 @@
-package com.mithin.OOPS_DEMO.SET2.SAMPLE1;
+package com.mithin.OOPS_DEMO.SET2.SAMPLE1.Q1toQ7;
 
 import java.util.Arrays;
 import java.util.Scanner;
