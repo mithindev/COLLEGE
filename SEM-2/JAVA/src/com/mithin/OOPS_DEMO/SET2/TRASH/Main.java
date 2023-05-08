@@ -1,4 +1,4 @@
-package com.mithin.OOPS_DEMO.SET2;
+package com.mithin.OOPS_DEMO.SET2.TRASH;
 
 public class Main {
     public static void main(String[] args) {
