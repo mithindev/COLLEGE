@@ -1,0 +1,29 @@
+class Main {
+  function void main() {
+    var int n;
+    let n = 2;
+
+    while (n < 51) {
+      if (isPrime(n) != 0) {
+        do Output.printInt(n);
+      }
+      let n = n + 1; 
+    }
+
+    return;
+  }
+
+  function int isPrime(int num) {
+    var int i;
+    let i = 2;
+
+    while (i * i < num) {
+      if (num % i == 0) {
+        return 0;
+      }
+      let i = i + 1; 
+    }
+
+    return 1;
+  }
+}

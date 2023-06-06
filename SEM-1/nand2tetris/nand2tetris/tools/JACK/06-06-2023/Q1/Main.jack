@@ -1,0 +1,31 @@
+class Main {
+  function void main() {
+    var int n;
+    var int i;
+    var int temp;
+
+    let n = Keyboard.readInt("enter number :");
+
+    let i = 2;
+
+    while (i < n) {
+      let temp = n;
+
+      while (temp > 0) {
+        let temp = temp - i;
+      }
+
+      if (temp = 0) {
+        do Output.printString("Not prime");
+        return;
+      }
+      else {
+        let i = i + 1;
+      }
+    }
+
+    do Output.printString("Is Prime!");
+    return;
+
+  }
+}
