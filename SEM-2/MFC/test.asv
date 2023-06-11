@@ -1,0 +1,7 @@
+clc; clear; close all;
+
+for i = 0:3
+    y(i) = cos(i * (2*pi)/4);
+end
+
+disp(y)
