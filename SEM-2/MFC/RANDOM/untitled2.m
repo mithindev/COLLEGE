@@ -14,7 +14,6 @@ disp(bases)
 
 x = [1 2 3 4];
 
-x = (x' * norm(bases)) * bases;
+x = (x' .* conj(bases)) * bases;
 
 disp(x)
-
