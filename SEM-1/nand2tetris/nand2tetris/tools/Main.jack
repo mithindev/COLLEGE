@@ -1,13 +1,50 @@
-class Main{
-  function void main(){
-		var String str;
-		let str = Keyboard.readLine("Enter a string :");
+class Main {
+    function void initializeArray(Array arr) {
+        let arr[0] = 2;
+        let arr[1] = 5;
+        let arr[2] = 8;
+        let arr[3] = 12;
+        let arr[4] = 16;
+        let arr[5] = 23;
+        let arr[6] = 38;
+        let arr[7] = 56;
+        let arr[8] = 72;
+        let arr[9] = 91;
+	return;
+    }
 
-		var int len;
-    let len = str.length();
+    function int search(Array array, int target, int low, int high) {
+	var int mid;
+        while (~(low > high)) {
+            let mid = (low + high) / 2;
+            if (array[mid] = target) {
+                return mid;  // Found the target element
+            }
+            if (array[mid] < target) {
+                let low = mid + 1; // Target is in the right half
+            }
+            if (array[mid] > target) {
+                let high = mid - 1;  // Target is in the left half
+            }
+        }
+        return -1;  // Target not found
+    }
 
-		do Output.printString(str);
-		return;
-	}
+    function void main() {
+        var int size, result, target;
+        var Array arr;
+        let size = 10;
+        let arr = Array.new(size);  // Create an array of size 10
+        do Main.initializeArray(arr);
+        let target = 23;
+        let result = Main.search(arr, target, 0, size - 1);
 
+        if (~(result = -1)) {
+            do Output.printString("Element found at index ");
+            do Output.printInt(result);
+        } else {
+            do Output.printString("Element not found");
+        }
+	return;
+    }
 }
