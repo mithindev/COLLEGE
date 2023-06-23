@@ -1,12 +1,22 @@
 package com.mithin.GENERAL;
 
 public class Main1 {
-    public static void main(String[] args) {
-        try {
-            System.out.println("Before!!");
-            throw new ArithmeticException();
-        } catch (ArithmeticException e) {
-            System.out.println("Caught!!");
-        }
+    void divide(int num,int denom) throws ArithmeticException
+    {
+        System.out.println(num/denom);
     }
+
+}
+
+public class ThrowsExample
+{
+
+    public static void main(String[] args)throws ArithmeticException
+    {
+        Demo obj=new Demo();
+        obj.divide(6, 2);
+        obj.divide(6, 0);
+
+    }
+
 }

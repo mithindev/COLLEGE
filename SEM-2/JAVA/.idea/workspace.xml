@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="292c6a1a-a116-4b83-8357-655d6d2b355a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../SEM-1/nand2tetris/nand2tetris/tools/Main.jack" beforeDir="false" afterPath="$PROJECT_DIR$/../../SEM-1/nand2tetris/nand2tetris/tools/Main.jack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SEM-1/nand2tetris/nand2tetris/tools/Main.vm" beforeDir="false" afterPath="$PROJECT_DIR$/../../SEM-1/nand2tetris/nand2tetris/tools/Main.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SEM-1/nand2tetris/nand2tetris/tools/bin/Virtual Machine Emulator.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../SEM-1/nand2tetris/nand2tetris/tools/bin/Virtual Machine Emulator.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SEM-1/nand2tetris/nand2tetris/tools/Main.vm" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/com/mithin/OOPS_DEMO/SET1/TEST/MATRIX/Matrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA/com/mithin/OOPS_DEMO/SET1/TEST/MATRIX/Matrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/com/mithin/GENERAL/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA/com/mithin/GENERAL/Main1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mithin/GENERAL/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mithin/GENERAL/Main1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +46,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.com.mithin.OOPS_DEMO.SET1.TEST.ANIMAL.Main">
-    <configuration name="InterfaceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.SET1.TEST.ANIMAL.InterfaceDemo" />
+  <component name="RunManager" selected="Application.MAin">
+    <configuration name="MAin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mithin.GENERAL.MAin" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mithin.OOPS_DEMO.SET1.TEST.ANIMAL.*" />
+          <option name="PATTERN" value="com.mithin.GENERAL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mithin.GENERAL.Main1" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mithin.GENERAL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,19 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.mithin.OOPS_DEMO.SET1.TEST.HUMAN.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.SET1.TEST.HUMAN.Main" />
-      <module name="JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mithin.OOPS_DEMO.SET1.TEST.HUMAN.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="com.mithin.OOPS_DEMO.SET1.TEST.THIS.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mithin.OOPS_DEMO.SET1.TEST.THIS.Main" />
       <module name="JAVA" />
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MAin" />
+        <item itemvalue="Application.Main1" />
         <item itemvalue="Application.com.mithin.OOPS_DEMO.SET1.TEST.ANIMAL.Main" />
         <item itemvalue="Application.com.mithin.OOPS_DEMO.SET1.TEST.COMPLEX.Main" />
         <item itemvalue="Application.com.mithin.OOPS_DEMO.SET1.TEST.THIS.Main" />
-        <item itemvalue="Application.InterfaceDemo" />
-        <item itemvalue="Application.com.mithin.OOPS_DEMO.SET1.TEST.HUMAN.Main" />
       </list>
     </recent_temporary>
   </component>
