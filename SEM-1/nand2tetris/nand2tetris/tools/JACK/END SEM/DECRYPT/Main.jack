@@ -1,0 +1,207 @@
+class Main {
+    function int mod(int a, int b) {
+        while (a > 0) {
+            let a = a - b;
+        }
+        return a;
+    }
+
+    function char decode(String inputstr,int shift) {
+        var int ascii,i,inputlength;
+        var Char decodedAscii;
+	var String output;
+	var String decodedword;
+        var String alphanum;
+	var Char c;
+        let alphanum = String.new(100);
+	let decodedword = String.new(100);
+	let output = String.new(100);
+        let alphanum = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+	let i =0;
+	let inputlength = String.length(inputstr);
+	
+	while(i<inputlength){
+	    let c = inputstr.charAt(i);
+
+            if (c = alphanum.charAt(0)) {
+                let ascii = c;
+                let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(0) + 26), 26) + alphanum.charAt(0);
+                let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(1)) {
+                let ascii = c;
+                let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(1) + 26), 26) + alphanum.charAt(1);
+                let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(2)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(2) + 26), 26) + alphanum.charAt(2);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(3)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(3) + 26), 26) + alphanum.charAt(3);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(4)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(4) + 26), 26) + alphanum.charAt(4);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(5)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(5) + 26), 26) + alphanum.charAt(5);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(6)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(6) + 26), 26) + alphanum.charAt(6);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(7)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(7) + 26), 26) + alphanum.charAt(7);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(8)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(8) + 26), 26) + alphanum.charAt(8);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(9)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(9) + 26), 26) + alphanum.charAt(9);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(10)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(10) + 26), 26) + alphanum.charAt(10);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(11)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(11) + 26), 26) + alphanum.charAt(11);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(12)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(12) + 26), 26) + alphanum.charAt(12);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(13)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(13) + 26), 26) + alphanum.charAt(13);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(14)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(14) + 26), 26) + alphanum.charAt(14);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(15)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(15) + 26), 26) + alphanum.charAt(15);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(16)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(16) + 26), 26) + alphanum.charAt(16);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(17)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(17) + 26), 26) + alphanum.charAt(17);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(18)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(18) + 26), 26) + alphanum.charAt(18);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(19)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(19) + 26), 26) + alphanum.charAt(19);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(20)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(20) + 26), 26) + alphanum.charAt(20);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(21)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(21) + 26), 26) + alphanum.charAt(21);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(22)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(22) + 26), 26) + alphanum.charAt(22);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(23)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(23) + 26), 26) + alphanum.charAt(23);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(24)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(24) + 26), 26) + alphanum.charAt(24);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+            }
+
+            if (c = alphanum.charAt(25)) {
+                    let ascii = c;
+                    let decodedAscii = Main.mod((ascii - shift - alphanum.charAt(25) + 26), 26) + alphanum.charAt(25);
+                    let decodedword = decodedword.appendChar(decodedAscii);
+             }
+
+	     if (String.length(decodedword)>0) {
+		do output.appendChar(decodedAscii);
+	     }
+
+             let i=i+1;
+	}
+	do Output.println();
+        return output;
+    }
+
+    function void main() {
+	var int shift;
+	var String inputstr;
+	var String outputstr;
+	let shift = 3;
+        let inputstr = 	Keyboard.readLine("Enter a word to translate: ");
+        let outputstr = String.new(100);
+        let outputstr = Main.decode(inputstr,shift);
+
+        do Output.printString("Decrypted message: ");
+	do Output.printString(outputstr);
+        do Output.println();
+
+	return;
+    }
+}

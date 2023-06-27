@@ -97,14 +97,14 @@ int main() {
     int x, y;
     int f1 = 1, f2 = 1;
     while(f1 == 1){
-     printf("Enter the coefficient followed by the power(leave space in between) :");
+     printf("Enter the coefficient followed by the power :");
      scanf("%d %d",&x, &y);
      head1 = create_poly(head1, x, y);
      printf("Enter 1 if you want to add more terms to the first polynomial : ");
      scanf("%d",&f1);
     }
     while(f2 == 1){
-     printf("Enter the coefficient followed by the power(leave space in between) :");
+     printf("Enter the coefficient followed by the power :");
      scanf("%d %d",&x, &y);
      head2 = create_poly(head2, x, y);
      printf("Enter 1 if you want to add more terms to the second polynomial : ");
