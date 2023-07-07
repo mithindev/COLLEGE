@@ -1,0 +1,32 @@
+class Main {
+    function int mod(int a, int b) {
+        while (a > b) {
+            let a = a - b;
+        }
+        return a;
+    }
+
+    function void main() {
+        var String plaintext;
+        var String ciphertext;
+        var int shift;
+        var int currentChar;
+        var char encryptedChar;
+        var int i;
+
+        let shift = 3;
+        let plaintext=Keyboard.readLine("Enter a string to encrypt: ");
+        let i = 0;
+        let ciphertext=String.new(100);
+        while (i < String.length(plaintext)){
+            let currentChar = plaintext.charAt(i);
+            let encryptedChar = Main.mod((currentChar - 65 + shift), 26) + 65;
+            do ciphertext.appendChar(encryptedChar);
+            let i = i + 1;
+        }
+
+        do Output.printString("Encrypted message: ");
+        do Output.printString(ciphertext);
+        return;
+    }
+}

@@ -1,0 +1,179 @@
+class Main {
+    function void strconcat(String str1, String str2) {
+    	var String result;
+    	var int i, j;
+
+    	let result = String.new(100);
+
+    	let i = 0;
+    	while (i < str1.length()) {
+        	let result = result.appendChar(str1.charAt(i));
+        	let i = i + 1;
+    	}
+
+    	let j = 0;
+    	while (j < str2.length()) {
+        	let result = result.appendChar(str2.charAt(j));
+        	let j = j + 1;
+    	}
+
+    	do Output.printString(result);
+    	return;
+    }
+
+
+
+    function String translate(String inputStr) {
+        var String output;
+	var String alphanum;
+        var int inputLength;
+        var int i;
+        var Char c;
+        var String morseCode;
+	let output = String.new(100);
+        let inputLength = String.length(inputStr);
+	let alphanum = String.new(100);
+	let alphanum = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 ";
+	let morseCode = String.new(100);
+        let i = 0;
+
+        while (i < inputLength) {
+            let c = inputStr.charAt(i);
+	            
+            if (c = alphanum.charAt(0)) {
+                let morseCode = "*-";
+            }
+            if (c = alphanum.charAt(1)) {
+                let morseCode = "-***";
+            }
+            if (c = alphanum.charAt(2)) {
+                let morseCode = "-*-*";
+            }
+            if (c = alphanum.charAt(3)) {
+                let morseCode = "-**";
+            }
+            if (c = alphanum.charAt(4)) {
+                let morseCode = "*";
+            }
+            if (c = alphanum.charAt(5)) {
+                let morseCode = "**-*";
+            }
+            if (c = alphanum.charAt(6)) {
+                let morseCode = "--*";
+            }
+            if (c = alphanum.charAt(7)) {
+                let morseCode = "****";
+            }
+            if (c = alphanum.charAt(8)) {
+                let morseCode = "**";
+            }
+            if (c = alphanum.charAt(9)) {
+                let morseCode = "*---";
+            }
+            if (c = alphanum.charAt(10)) {
+                let morseCode = "-*-";
+            }
+            if (c = alphanum.charAt(11)) {
+                let morseCode = "*-**";
+            }
+            if (c = alphanum.charAt(12)) {
+                let morseCode = "--";
+            }
+            if (c = alphanum.charAt(13)) {
+                let morseCode = "-*";
+            }
+            if (c = alphanum.charAt(14)) {
+                let morseCode = "---";
+            }
+            if (c = alphanum.charAt(15)) {
+                let morseCode = "*--*";
+            }
+            if (c = alphanum.charAt(16)) {
+                let morseCode = "--*-";
+            }
+            if (c = alphanum.charAt(17)) {
+                let morseCode = "*-*";
+            }
+            if (c = alphanum.charAt(18)) {
+                let morseCode = "***";
+            }
+            if (c = alphanum.charAt(19)) {
+                let morseCode = "-";
+            }
+            if (c = alphanum.charAt(20)) {
+                let morseCode = "**-";
+            }
+            if (c = alphanum.charAt(21)) {
+                let morseCode = "***-";
+            }
+            if (c = alphanum.charAt(22)) {
+                let morseCode = "*--";
+            }
+            if (c = alphanum.charAt(23)) {
+                let morseCode = "-**-";
+            }
+            if (c = alphanum.charAt(24)) {
+                let morseCode = "-*--";
+            }
+            if (c = alphanum.charAt(25)) {
+                let morseCode = "--**";
+            }
+            
+            if (c = alphanum.charAt(26)) {
+                let morseCode = "*----";
+            }
+            if (c = alphanum.charAt(27)) {
+                let morseCode = "**---";
+            }
+            if (c = alphanum.charAt(28)) {
+                let morseCode = "***--";
+            }
+            if (c = alphanum.charAt(29)) {
+                let morseCode = "****-";
+            }
+            if (c = alphanum.charAt(30)) {
+                let morseCode = "*****";
+            }
+            if (c = alphanum.charAt(31)) {
+                let morseCode = "-****";
+            }
+            if (c = alphanum.charAt(32)) {
+                let morseCode = "--***";
+            }
+            if (c = alphanum.charAt(33)) {
+                let morseCode = "---**";
+            }
+            if (c = alphanum.charAt(34)) {
+                let morseCode = "----*";
+            }
+	    if (c = alphanum.charAt(35)) {
+                let morseCode = "-----";
+            }
+            if (c = alphanum.charAt(36)) {
+                let morseCode = "/";
+            }
+	    
+            if (String.length(morseCode) > 0) {
+                do Main.strconcat(output,morseCode);
+            }
+
+            let i = i + 1;
+        }
+	do Output.println();
+	do Output.printString(output);
+        return output;
+    }
+
+    function void main() {
+        var String inputStr;
+        var String outputStr;
+        let inputStr = 	Keyboard.readLine("Enter a word or sentence to translate: ");
+        let outputStr = String.new(100);
+        let outputStr = Main.translate(inputStr);
+
+        do Output.printString(outputStr);
+        do Output.println();
+
+        return;
+    }
+}

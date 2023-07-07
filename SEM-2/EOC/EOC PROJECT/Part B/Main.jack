@@ -1,0 +1,161 @@
+class Main {
+    static Array lineNumbers;
+    static Array reservedWords;
+    static Array variableNames;
+    static Array typeNames;
+    static Array procedureNames;
+    static Array stringNames;
+    static int count;
+    static int numOfValuesToEnter;
+    static int numOfValuesToView;
+
+    function int compareStrings(String str1, String str2) {
+        var int k;
+        let k = 0;
+        if (String.length(str1) = String.length(str2)) {
+            while (k < String.length(str1)) {
+                if (~(str1.charAt(k) = str2.charAt(k))) {
+                    return 0;
+                }
+                let k = k + 1;
+            }
+        } else {
+            return 0;
+        }
+        return 1;
+    }
+
+    function void createArrays() {
+        let lineNumbers    = Array.new(50);
+        let reservedWords  = Array.new(50);
+        let variableNames  = Array.new(50);
+        let typeNames      = Array.new(50);
+        let procedureNames = Array.new(50);
+        let stringNames    = Array.new(50);
+        return;
+    }
+
+    function void defineLineReservedVariable(String lineNumberArg, String reservedWordArg, String variableNameArg) {
+        let lineNumbers[count]   = lineNumberArg;
+        let reservedWords[count] = reservedWordArg;
+        let variableNames[count] = variableNameArg;
+        return;
+    }
+
+    function void defineTypeProcedureString(String typeNameArg, String procedureNameArg, String stringNameArg) {
+        let typeNames[count] 	  = typeNameArg;
+        let procedureNames[count] = procedureNameArg;
+        let stringNames[count]    = stringNameArg;
+        let count = count + 1;
+        return;
+    }
+
+    function void showDataLineReserved(String lineNumberInput) {
+        var int x, y, comp, i;
+        var String reservedWordVal, variableNameVal;
+        let reservedWordVal = String.new(1000);
+        let variableNameVal = String.new(1000);
+        let i = count - 1;
+        while (i > -1) {
+            let x = lineNumberInput;
+            let y = lineNumbers[i];
+            let comp = Main.compareStrings(x, y);
+            if (comp = 1) {
+                let reservedWordVal = reservedWords[i];
+                let variableNameVal = variableNames[i];
+                do Output.printString("The Symbol table to the given line no. is");
+                do Output.println();
+		do Output.printString("   RW     |    VN    |     TN        |      PN     |    SN    ");
+                do Output.println();
+		do Output.printString("   ");
+                do Output.printString(reservedWordVal);
+                do Output.printString("     |    ");
+                do Output.printString(variableNameVal);
+            }
+            let i = i - 1;
+        }
+        return;
+    }
+
+    function void showDataTypeProcedureString(String lineNumberInput) {
+        var int x, y, i, comp2;
+        var String typeNameVal, procedureNameVal, stringNameVal;
+        let typeNameVal = String.new(1000);
+        let procedureNameVal = String.new(1000);
+        let stringNameVal = String.new(1000);
+        let i = count - 1;
+        while (i > -1) {
+            let x = lineNumberInput;
+            let y = lineNumbers[i];
+            let comp2 = Main.compareStrings(x, y);
+            if (comp2 = 1) {
+                let typeNameVal      = typeNames[i];
+                let procedureNameVal = procedureNames[i];
+                let stringNameVal    = stringNames[i];
+                do Output.printString("     |    ");
+                do Output.printString(typeNameVal);
+                do Output.printString("     |    ");
+                do Output.printString(procedureNameVal);
+                do Output.printString("     |    ");
+                do Output.printString(stringNameVal);
+            }
+            let i = i - 1;
+        }
+        return;
+    }
+
+    function void main() {
+        // Define entries in the symbol table
+        var String lineNumberVar, lineNumberInputForPrint;
+        var String reservedWordVar, variableNameVar, typeNameVar, procedureNameVar, stringNameVar;
+        do Main.createArrays();
+        let lineNumberInputForPrint = String.new(1000);
+        let count = 0;
+        let numOfValuesToEnter = 0;
+        let numOfValuesToView = 0;
+        let lineNumberVar = String.new(1000);
+        let reservedWordVar = String.new(1000);
+        let variableNameVar = String.new(1000);
+        let typeNameVar = String.new(1000);
+        let procedureNameVar = String.new(1000);
+        let stringNameVar = String.new(1000);
+        let numOfValuesToEnter = Keyboard.readInt("Enter no. of lines in the Symbol Table: ");
+        do Output.println();
+
+        while (numOfValuesToEnter > 0) {
+            let lineNumberVar = Keyboard.readLine("Enter the line number of the tokenized line (in words):  ");
+            do Output.println();
+            let reservedWordVar = Keyboard.readLine("Enter the Reserved word of that line: ");
+            do Output.println();
+            let variableNameVar = Keyboard.readLine("Enter the Variable Name of that line: ");
+            do Output.println();
+            let typeNameVar = Keyboard.readLine("Enter the Type Name of that line: ");
+            do Output.println();
+            let procedureNameVar = Keyboard.readLine("Enter the Procedure Name of that line: ");
+            do Output.println();
+            let stringNameVar = Keyboard.readLine("Enter the String Name present in that line: ");
+            do Output.println();
+
+            do Main.defineLineReservedVariable(lineNumberVar, reservedWordVar, variableNameVar);
+            do Main.defineTypeProcedureString(typeNameVar, procedureNameVar, stringNameVar);
+
+            let numOfValuesToEnter = numOfValuesToEnter - 1;
+        }
+
+        do Output.printString(" MAXIMUM LINES YOU CAN VIEW = ");
+        do Output.printInt(count);
+        do Output.println();
+        let numOfValuesToView = Keyboard.readInt("How many lines you want to view from the Symbol Table: ");
+        do Output.println();
+
+        while (numOfValuesToView > 0) {
+            let lineNumberInputForPrint = Keyboard.readLine("Enter the line number (in words): ");
+            do Output.println();
+
+            do Main.showDataLineReserved(lineNumberInputForPrint);
+            do Main.showDataTypeProcedureString(lineNumberInputForPrint);
+            let numOfValuesToView = numOfValuesToView - 1;
+        }
+        return;  // Add a return statement
+    }
+}

@@ -1,0 +1,166 @@
+class Main {
+    
+    function boolean compare(String str1,String str2){
+	var int i;
+	let i=0;
+	if(String.length(str1)=String.length(str2)){
+		while(i<String.length(str1)){
+			if(~(str1.charAt(i)=str2.charAt(i))){
+				return false;
+			}
+			let i=i+1;
+		}
+	}
+	else{
+	    return false;
+	}
+	
+	return true;
+    }
+
+    function String decodeCharacter(String morseCode) {
+        var Char decodedChar;
+	
+        if (String.length(morseCode) = 0) {
+            return "";
+        }
+
+        let decodedChar = "";
+
+            if (Main.compare(morseCode,"*-")) {
+                let decodedChar = 65;
+            }
+            if (Main.compare(morseCode,"-***")) {
+                let decodedChar = 66;
+            }
+            if (Main.compare(morseCode,"-*-*")) {
+                let decodedChar = 67;
+            }
+            if (Main.compare(morseCode,"-**")) {
+                let decodedChar = 68;
+            }
+            if (Main.compare(morseCode,"*")) {
+                let decodedChar = 69;
+            }
+            if (Main.compare(morseCode,"**-*")) {
+                let decodedChar = 70;
+            }
+            if (Main.compare(morseCode,"--*")) {
+                let decodedChar = 71;
+            }
+            if (Main.compare(morseCode,"****")) {
+                let decodedChar = 72;
+            }
+            if (Main.compare(morseCode,"**")) {
+                let decodedChar = 73;
+            }
+            if (Main.compare(morseCode,"*---")) {
+                let decodedChar = 74;
+            }
+            if (Main.compare(morseCode,"-*-")) {
+                let decodedChar = 75;
+            }
+            if (Main.compare(morseCode,"*-**")) {
+                let decodedChar = 76;
+            }
+            if (Main.compare(morseCode,"--")) {
+                let decodedChar = 77;
+            }
+            if (Main.compare(morseCode,"-*")) {
+                let decodedChar = 78;
+            }
+            if (Main.compare(morseCode,"---")) {
+                let decodedChar = 79;
+            }
+            if (Main.compare(morseCode,"*--*")) {
+                let decodedChar = 80;
+            }
+            if (Main.compare(morseCode,"--*-")) {
+                let decodedChar = 81;
+            }
+            if (Main.compare(morseCode,"*-*")) {
+                let decodedChar = 82;
+            }
+            if (Main.compare(morseCode,"***")) {
+                let decodedChar = 83;
+            }
+            if (Main.compare(morseCode,"-")) {
+                let decodedChar = 84;
+            }
+            if (Main.compare(morseCode,"**-")) {
+                let decodedChar = 85;
+            }
+            if (Main.compare(morseCode,"***-")) {
+                let decodedChar = 86;
+            }
+            if (Main.compare(morseCode,"*--")) {
+                let decodedChar = 87;
+            }
+            if (Main.compare(morseCode,"-**-")) {
+                let decodedChar = 88;
+            }
+            if (Main.compare(morseCode,"-*--")) {
+                let decodedChar = 89;
+            }
+            if (Main.compare(morseCode,"--**")) {
+                let decodedChar = 90;
+            }
+        
+        return decodedChar;
+    }
+
+    function String decodeWord(String morseCode) {
+        var int currentPosition;
+        var String decodedText, morseChar,c;
+	var Char decodedChar;
+        var Char curchar;
+
+        let currentPosition = 0;
+	let decodedText = String.new(100);
+        let morseChar = String.new(10000);
+        let c = ",";
+
+        while (currentPosition < String.length(morseCode)) {
+            let curchar = morseCode.charAt(currentPosition);
+
+            if (curchar = c.charAt(0)) {
+                if (String.length(morseChar) > 0) {
+
+                    let decodedChar = Main.decodeCharacter(morseChar);
+		    do Output.println();
+		    
+                    do decodedText.appendChar(decodedChar);
+		    let morseChar = String.new(100);
+                }
+		
+            } else {
+                do morseChar.appendChar(curchar);
+						
+            }
+
+            let currentPosition = currentPosition + 1;
+        }
+	if (String.length(morseChar) > 0){
+		let decodedChar = Main.decodeCharacter(morseChar);
+		    do Output.println();
+		    
+                    do decodedText.appendChar(decodedChar);
+		    let morseChar = String.new(100);
+                }
+        return decodedText;
+    }
+
+    function void main() {
+        var String morseCode, decodedText;
+
+        let morseCode = Keyboard.readLine("Enter Morse code: ");
+        let decodedText = Main.decodeWord(morseCode);
+        if (String.length(decodedText) = 0) {
+            do Output.printString("Invalid Morse code");
+        } else {
+            do Output.printString(decodedText);
+        }
+
+        return;
+    }
+}
