@@ -1,9 +1,17 @@
-d = {'1':'a', '2':'b', '3':'c', '4':'d', '5':'e'}
+d = {'1':'e', '2':'d', '3':'c', '4':'b', '5':'a'}
 
-key = list(d)
+items = list(d.items())
 
-for i in range(len(key)):
-    for j in range(1,len(key)):
-        if (d.get(j) >= d.get(j - 1)):
-            temp = d.get(j)
-            d.update(j,
+print(items)
+
+for i in range(len(items)):
+    for j in range(1, len(items)):
+        if items[j][1] <= items[j - 1][1]:
+
+            temp = items[j]
+            items[j] = items[j - 1]
+            items[j - 1] = temp
+
+sorted_dict = dict(items)
+
+print(sorted_dict)
