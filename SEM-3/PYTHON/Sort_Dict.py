@@ -1,17 +1,43 @@
-d = {'1':'e', '2':'d', '3':'c', '4':'b', '5':'a'}
+d = {'1':'e', '3':'c', '2':'d', '4':'b', '5':'a'}
 
-items = list(d.items())
+lst = list(d.values())
 
-print(items)
+for i in range(len(lst)):
+    for j in range(1, len(lst)):
+        if lst[j] <= lst[j - 1]:
+            temp = lst[j]
+            lst[j] = lst[j - 1]
+            lst[j - 1] = temp
 
-for i in range(len(items)):
-    for j in range(1, len(items)):
-        if items[j][1] <= items[j - 1][1]:
+k = list(d.keys())
+print(k)
 
-            temp = items[j]
-            items[j] = items[j - 1]
-            items[j - 1] = temp
+temp = 0
 
-sorted_dict = dict(items)
+for i in k:
+    d[i] = lst[temp]
+    temp += 1
 
-print(sorted_dict)
+print(d)
+
+# Qn - 2
+
+# d = {'1':'e', '3':'c', '2':'d', '4':'b', '5':'a'}
+
+# lst = list(d.items())
+
+# print(lst)
+
+# print(lst[0][1])
+
+# for i in range(len(lst)):
+#     for j in range(1, len(lst)):
+#         if lst[j][1] <= lst[j - 1][1]:
+
+#             temp = lst[j]
+#             lst[j] = lst[j - 1]
+#             lst[j - 1] = temp
+
+# ans = dict(lst)
+
+# print(ans)
