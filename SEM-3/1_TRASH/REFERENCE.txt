@@ -1,0 +1,7 @@
+1] https://www.browserstack.com/
+2] https://www.lambdatest.com/automation-testing-advisor/javascript/appium-xcuitest-driver-this.logs.crashlog.startCapture
+3] https://www.browserstack.com/guide/mobile-application-testing-frameworks
+4] https://stackoverflow.com/questions/45184561/which-is-the-best-logger-for-android-appium-automation
+5] https://developer.mozilla.org/
+
+6] Remote logging (Taken from a medium article) couldn't find any code.
