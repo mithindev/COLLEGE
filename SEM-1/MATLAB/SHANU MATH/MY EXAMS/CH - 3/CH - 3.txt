@@ -1,0 +1,39 @@
+1] Graphically, the pair of equations  [1 Mark]
+6x – 3y + 10 = 0
+2x – y + 9 = 0
+
+represents two lines which are ________.
+
+2]  For the pair of equations [2 Marks]
+
+λx + 3y = –7
+2x + 6y = 14
+
+Can it have infinate solutions? If yes, then for what value of Lambda.
+
+3] For all real values of c, the pair of equations [2 Marks]
+
+x – 2y = 8
+5x – 10y = c
+
+can have what kind of solutions? (infinate or unique or none) JUSTIFY!
+
+4] For which values of p and q, will the following pair of linear
+equations have infinitely many solutions? [5 Marks] 
+
+4x + 5y = 2
+(2p + 7q) x + (p + 8q) y = 2q – p + 1
+
+5] Draw the graphs of the pair of linear equations x – y + 2 = 0
+and 4x – y – 4 = 0. Calculate the area of the triangle formed by the lines so drawn
+and the x-axis. [5 Marks]
+
+6] Determine, algebraically, the vertices of the triangle formed
+by the lines [4 Marks]
+
+5x – y = 5, x + 2y = 1 and 6x + y = 17
+
+7] It can take 12 hours to fill a swimming pool using two pipes. If
+the pipe of larger diameter is used for 4 hours and the pipe of smaller diameter for
+9 hours, only half the pool can be filled.How long would it take for each pipe to fill the
+pool separately? [5 Marks]
