@@ -1,14 +1,16 @@
+%%
 clc; clear; close all
 
 A = [4 2; 2 2];
-x0 = [5; 5];
+x0 = [0; 0];
 b = [-1; 1];
 count = 0;
+tol = 0.00001;
 
 r0 = b - A * x0;
 p = r0;
 
-while true
+while 1
     temp1 = (r0' * r0) / (p' * A * p);
     x0 = x0 + temp1 * p;
     r1 = r0 - temp1 * A * p;
@@ -16,10 +18,10 @@ while true
     p = r1 + temp2 * p;
     r0 = r1;
     count = count + 1;
-    if norm(r1) < 0.00001
+    if norm(r1) < tol
         break
     end
 end
 
-disp(count)
-disp(x0)
+count
+x0
