@@ -9,10 +9,10 @@ r0 = b - A * x0;
 p = r0;
 
 while true
-    temp1 = (r0' * r0) / (p' * A * p);
+    temp1 = ((b - A * x0)' * (b - A * x0)) / (p' * A * p);
     x0 = x0 + temp1 * p;
-    r1 = r0 - temp1 * A * p;
-    temp2 = (r1' * r1) / (r0' * r0);
+    r1 = (b - A * x0) - temp1 * A * p;
+    temp2 = (r1' * r1) / ((b - A * x0)' * (b - A * x0));
     p = r1 + temp2 * p;
     r0 = r1;
     count = count + 1;
