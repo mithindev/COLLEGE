@@ -1,0 +1,20 @@
+A=[3 0 1;
+   0 4 2;
+   1 2 3];
+b = [3 4 5]';
+x0=[1 2 3]';
+
+g = A*x0-b;
+d = -g;
+vals = [];
+a = size(A);
+for i=1:a(1)
+    alpha = -(g'*d)/(d'*A*d);
+    x0 = x0 + alpha*d;
+    vals = [vals x0];
+    g = A*x0 -b;
+    beta = ((g'*A*d)/(d'*A*d));
+    d = -g + beta*d;
+end
+
+vals
