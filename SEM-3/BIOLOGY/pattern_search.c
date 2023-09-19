@@ -2,7 +2,7 @@
 #include <stdbool.h>
 #include <string.h>
 
-bool pattern_search(const char *str, const char *pattern) {
+bool pattern_search(const char *str, char *pattern) {
     int n = strlen(str);
     int m = strlen(pattern);
 
