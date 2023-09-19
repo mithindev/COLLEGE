@@ -1,8 +1,12 @@
-# def lps (pattern) -> list:
-#   n = len(pattern)
-#   lst = [0 for i in range(n)]
+def lps (pattern):
+  l = len(pattern)
+  ans = [0 for i in range(l)]
 
-lst = [0 for i in range(5)]
-print(lst)
+  for i in range(l):
+    length = 0
 
+    prefix = pattern[i]
 
+    for i in pattern[i:]:
+      if i == prefix:
+        
