@@ -1,5 +1,7 @@
+clc; clear; close;
+
 % Load EEG signal data from file
-eeg_data = load('C:\Users\sbara\Desktop\SEM-3\Bio Assignment\assignment_eeg_signal.mat');
+eeg_data = load('C:\Users\nmary\OneDrive\Desktop\DSA-COLLEGE\COLLEGE\SEM-3\BIOLOGY\assignment_eeg_signal.mat');
 eeg_signal = eeg_data.eeg_signal;  % Extract signal data from the loaded structure
 
 % Define the sampling frequency
@@ -79,6 +81,9 @@ num_peaks = numel(peaks);
 fprintf('Number of detected peaks: %d\n', num_peaks);
 
 % Question 8: Correlation analysis
-amplitude = max(abs(eeg_signal));
-correlation_coefficient = corr(dominant, amplitude);
-fprintf('Correlation coefficient between Dominant Frequency and Amplitude: %.4f\n', correlation_coefficient);
+% Create a time-domain signal of the same length as the EEG signal
+time_signal = linspace(0, (length(eeg_signal) - 1) / f, length(eeg_signal));
+
+% Calculate the correlation coefficient between the EEG signal and the time signal
+correlation_coefficient = corr(eeg_signal(:), time_signal(:));
+fprintf('Correlation coefficient between EEG Signal and Time Signal: %.4f\n', correlation_coefficient);
