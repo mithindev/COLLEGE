@@ -25,8 +25,8 @@ def possibleSteps(puzzle):
 def checkSolution(puzzle):
     return puzzle == [
     [1, 2, 3],
-    [8, 0, 4],
-    [7, 6, 5]
+    [4, 5, 6],
+    [7, 8, 0]
 ]
 
 def bfs(initialState):
@@ -50,8 +50,8 @@ def bfs(initialState):
 
 initialState = [
     [1, 2, 3],
-    [0, 8, 4],
-    [7, 6, 5]
+    [0, 4, 6],
+    [7, 5, 8]
 ]
 
 solution = bfs(initialState)
