@@ -40,3 +40,9 @@ plot(signal);
 title('Original Signal');
 axis tight;
 xlabel('Samples');
+
+%%
+
+A = [0.8 0.1 0.1; 0.3 0.6 0.1; 0 1 0]
+A*A
+A*A*A
