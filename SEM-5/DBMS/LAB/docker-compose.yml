@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: dbms-postgres
+    environment:
+      POSTGRES_USER: mithin
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+  psql:
+    image: postgres:latest
+    depends_on:
+      - postgres
+    entrypoint: ["bash"]
+    stdin_open: true
+    tty: true
+    environment:
+      PGPASSWORD: password  # Make sure to match this with POSTGRES_PASSWORD
+
+volumes:
+  postgres-data:
