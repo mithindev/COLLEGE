@@ -46,6 +46,8 @@ function [signal, noisy_signal] = generate_signal(freq, SNR, noise_type, N)
     ylabel('Amplitude');
 end
 
+clc; clear; close all;
+
 % Parameters
 freq = 10; % Signal frequency in Hz
 SNR = 20; % Signal-to-noise ratio in dB
