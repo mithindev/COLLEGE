@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  postgres-db:
+    image: postgres:latest  # Pull the latest PostgreSQL image
+    pull_policy: if_not_present
+    container_name: hospital_postgres_db  # Name of the container
+    environment:
+      POSTGRES_USER: mithin
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: hospital_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data  # Mount the volume for persistent data
+    ports:
+      - "5432:5432"  # Map port 5432 of container to port 5432 of localhost
+    restart: always  # Ensure the container restarts if it crashes
+    networks:
+      - hospital-net
+
+volumes:
+  postgres_data:  # Named volume for persisting PostgreSQL data
+
+networks:
+  hospital-net:
+    driver: bridge  # Create a bridge network for communication between services (if needed)
