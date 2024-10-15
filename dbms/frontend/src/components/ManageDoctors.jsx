@@ -31,14 +31,14 @@ const ManageDoctors = () => {
     try {
       const response = await axios.post('http://localhost:5005/api/admin/add-new-doctor', newDoctor);
       setDoctors([...doctors, response.data]); // Update the list with the new doctor
-      // setNewDoctor({
-      //   name: '',
-      //   specialization: '',
-      //   contact_info: '',
-      //   username: '',
-      //   password: '',
-      //   role: 'Doctor',
-      // }); // Reset form
+      setNewDoctor({
+        name: '',
+        specialization: '',
+        contact_info: '',
+        username: '',
+        password: '',
+        role: 'Doctor',
+      }); // Reset form
     } catch (error) {
       console.error('Error adding doctor:', error);
     }

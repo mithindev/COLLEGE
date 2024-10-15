@@ -5,7 +5,7 @@ const pool = require('../models/db');
 // Role-based middleware
 function checkRole(roles) {
   return (req, res, next) => {
-      if (!roles.includes(req.user.role)) {
+      if (roles.includes(req.user.role)) {
           return res.status(403).json({ message: 'Access forbidden: insufficient rights' });
       }
       next();
@@ -24,7 +24,7 @@ router.get('/get-patients', async (req, res) => {
 });
 
 // Add a new patient
-router.post('/add-patient', checkRole(['Admin', 'Receptionist']), async (req, res) => {
+router.post('/add-patient', async (req, res) => {
   const { name, age, gender, contact_info } = req.body;
   try {
     const newPatient = await pool.query(

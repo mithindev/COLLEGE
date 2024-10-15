@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const pool = require('../models/db');
+const bcrypt = require('bcryptjs');
 
 
 router.get('/get-all-doctors', async (req, res) => {
@@ -67,9 +68,10 @@ router.post('/add-new-doctor', async (req, res) => {
   const { name, specialization, contact_info, username, password, role } = req.body;
   try {
     // Add the doctor as a user first
+    const hashedPassword = await bcrypt.hash(password, 10);
     const newUser = await pool.query(
-      'INSERT INTO users (username, password, role) VALUES ($1, $2, $3) RETURNING user_id',
-      [username, password, role]
+      'INSERT INTO users (username, password, role) VALUES ($1, $2, $3) RETURNING *',
+      [username, hashedPassword, role]
     );
     const userId = newUser.rows[0].user_id;
 
