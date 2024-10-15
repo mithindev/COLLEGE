@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 
 // Routes
 app.use('/api/auth', authRoutes);
-app.use('/api/patients', patientRoutes); 
+app.use('/api/patient', patientRoutes); 
 app.use('/api/doctors', doctorRoutes); 
 app.use('/api/appointments', appointmentRoutes);
 app.use('/api/admin', adminRoutes);

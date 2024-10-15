@@ -7,6 +7,7 @@ import ManageDoctors from '../src/components/ManageDoctors';
 import ManagePatients from '../src/components/ManagePatients';
 import ManageAppointments from '../src/components/ManageAppointments';
 import DoctorDashboard from './pages/dashboard/DoctorDashboard';
+import PatientDashboard from './pages/dashboard/PatientDashboard';
 
 function App() {
   return (
@@ -24,8 +25,11 @@ function App() {
         <Route path="/admin/appointments" element={<ManageAppointments />} />
         {/* Other routes */}
 
-        {/* //! Admin Pages */}
+        {/* //! Doc Pages */}
         <Route path="/doctor/dashboard" element={<DoctorDashboard />} />
+
+        {/* //! Patient Pages */}
+        <Route path="/patient/dashboard" element={<PatientDashboard />} />
 
       </Routes>
     </Router>
