@@ -6,14 +6,27 @@ const router = express.Router();
 
 // Register a user
 router.post('/register', async (req, res) => {
-  const { username, password, role } = req.body;
+  const { username, password, role, name, age, gender, contact_info } = req.body;
 
   try {
+    // Hash the password
     const hashedPassword = await bcrypt.hash(password, 10);
+
+    // Insert into the Users table
     const newUser = await pool.query(
-      'INSERT INTO users (username, password, role) VALUES ($1, $2, $3) RETURNING *',
-      [username, hashedPassword, role]
+      'INSERT INTO users (username, password, role, name) VALUES ($1, $2, $3, $4) RETURNING *',
+      [username, hashedPassword, role, name]
     );
+
+    // If the role is 'Patient', also insert into the Patients table
+    if (role === 'Patient') {
+      const userId = newUser.rows[0].user_id;
+
+      await pool.query(
+        'INSERT INTO patients (user_id, name, age, gender, contact_info) VALUES ($1, $2, $3, $4, $5)',
+        [userId, name, age, gender, contact_info]
+      );
+    }
 
     res.json(newUser.rows[0]);
   } catch (err) {
@@ -21,6 +34,8 @@ router.post('/register', async (req, res) => {
     res.status(500).json({ error: 'Server error' });
   }
 });
+
+
 
 // Login a user
 router.post('/login', async (req, res) => {
