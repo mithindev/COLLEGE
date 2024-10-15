@@ -4,11 +4,7 @@
 
 `CREATE TABLE Doctors (     doctor_id SERIAL PRIMARY KEY,     user_id INT REFERENCES Users(user_id) ON DELETE CASCADE,     name VARCHAR(100) NOT NULL,     specialization VARCHAR(100),     contact_info VARCHAR(100),     availability_schedule TEXT,  -- You can store available days and times as JSON or Text     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ); `
 
-`CREATE TABLE Appointments (     appointment_id SERIAL PRIMARY KEY,     patient_id INT REFERENCES Patients(patient_id) ON DELETE CASCADE,     doctor_id INT REFERENCES Doctors(doctor_id) ON DELETE CASCADE,     appointment_date TIMESTAMP NOT NULL,     status VARCHAR(50) CHECK (status IN ('Scheduled', 'Completed', 'Cancelled')),     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ); `
-
 `CREATE TABLE MedicalRecords (     record_id SERIAL PRIMARY KEY,     patient_id INT REFERENCES Patients(patient_id) ON DELETE CASCADE,     doctor_id INT REFERENCES Doctors(doctor_id) ON DELETE CASCADE,     diagnosis TEXT,     prescription TEXT,     visit_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ); `
-
-`CREATE TABLE Payments (     payment_id SERIAL PRIMARY KEY,     patient_id INT REFERENCES Patients(patient_id) ON DELETE CASCADE,     amount DECIMAL(10, 2),     payment_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,     method VARCHAR(50) CHECK (method IN ('Cash', 'Card', 'Insurance')) ); `
 
 ## ROUTES
 
@@ -39,8 +35,6 @@
 * **GET `/api/appointments/get-all-appointments`** : Get all appointments.
 * **PUT `/api/appointments/update-appointment-by-id/:id`** : Update an appointment by ID.
 * **DELETE `/api/appointments/delete-appointment-by-id/:id`** : Cancel an appointment by ID.
-
-
 
 ### 1. **User Roles and Authentication**
 
