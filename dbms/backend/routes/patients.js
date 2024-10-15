@@ -23,21 +23,6 @@ router.get('/get-patients', async (req, res) => {
   }
 });
 
-// Add a new patient
-router.post('/add-patient', async (req, res) => {
-  const { name, age, gender, contact_info } = req.body;
-  try {
-    const newPatient = await pool.query(
-      'INSERT INTO patients (name, age, gender, contact_info) VALUES ($1, $2, $3, $4) RETURNING *',
-      [name, age, gender, contact_info]
-    );
-    res.json(newPatient.rows[0]);
-  } catch (err) {
-    console.error(err.message);
-    res.status(500).json({ error: 'Server error' });
-  }
-});
-
 // Get a specific patient by ID
 router.get('/get-patient-by-id/:id', async (req, res) => {
   const { id } = req.params;

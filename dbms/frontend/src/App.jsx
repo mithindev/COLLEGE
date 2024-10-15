@@ -6,6 +6,7 @@ import AdminDashboard from './pages/dashboard/AdminDashboard';
 import ManageDoctors from '../src/components/ManageDoctors';
 import ManagePatients from '../src/components/ManagePatients';
 import ManageAppointments from '../src/components/ManageAppointments';
+import DoctorDashboard from './pages/dashboard/DoctorDashboard';
 
 function App() {
   return (
@@ -22,6 +23,10 @@ function App() {
         <Route path="/admin/patients" element={<ManagePatients />} />
         <Route path="/admin/appointments" element={<ManageAppointments />} />
         {/* Other routes */}
+
+        {/* //! Admin Pages */}
+        <Route path="/doctor/dashboard" element={<DoctorDashboard />} />
+
       </Routes>
     </Router>
   );
