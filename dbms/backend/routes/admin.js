@@ -14,7 +14,6 @@ router.get('/get-all-doctors', async (req, res) => {
   }
 });
 
-// Get a specific doctor by ID
 router.get('/get-doctor-by-id/:id', async (req, res) => {
   const { id } = req.params;
   try {
@@ -29,7 +28,6 @@ router.get('/get-doctor-by-id/:id', async (req, res) => {
   }
 });
 
-// Update a doctor by ID
 router.put('/update-doctor-by-id/:id', async (req, res) => {
   const { id } = req.params;
   const { name, specialization, contact_info } = req.body;
@@ -48,7 +46,6 @@ router.put('/update-doctor-by-id/:id', async (req, res) => {
   }
 });
 
-// Delete a doctor by ID
 router.delete('/delete-doctor-by-id/:id', async (req, res) => {
   const { id } = req.params;
   try {
@@ -63,11 +60,9 @@ router.delete('/delete-doctor-by-id/:id', async (req, res) => {
   }
 });
 
-// Add a new doctor and corresponding user
 router.post('/add-new-doctor', async (req, res) => {
   const { name, specialization, contact_info, username, password, role } = req.body;
   try {
-    // Add the doctor as a user first
     const hashedPassword = await bcrypt.hash(password, 10);
     const newUser = await pool.query(
       'INSERT INTO users (username, password, role) VALUES ($1, $2, $3) RETURNING *',
@@ -75,7 +70,6 @@ router.post('/add-new-doctor', async (req, res) => {
     );
     const userId = newUser.rows[0].user_id;
 
-    // Add the doctor to the doctors table
     const newDoctor = await pool.query(
       'INSERT INTO doctors (user_id, name, specialization, contact_info) VALUES ($1, $2, $3, $4) RETURNING *',
       [userId, name, specialization, contact_info]

@@ -4,21 +4,17 @@ const jwt = require('jsonwebtoken');
 const pool = require('../models/db');
 const router = express.Router();
 
-// Register a user
 router.post('/register', async (req, res) => {
   const { username, password, role, name, age, gender, contact_info } = req.body;
 
   try {
-    // Hash the password
     const hashedPassword = await bcrypt.hash(password, 10);
 
-    // Insert into the Users table
     const newUser = await pool.query(
       'INSERT INTO users (username, password, role, name) VALUES ($1, $2, $3, $4) RETURNING *',
       [username, hashedPassword, role, name]
     );
 
-    // If the role is 'Patient', also insert into the Patients table
     if (role === 'Patient') {
       const userId = newUser.rows[0].user_id;
 
@@ -37,7 +33,6 @@ router.post('/register', async (req, res) => {
 
 
 
-// Login a user
 router.post('/login', async (req, res) => {
   const { username, password } = req.body;
 
@@ -64,7 +59,6 @@ router.post('/login', async (req, res) => {
       role: user.rows[0].role
     };
 
-    // Return the token along with user details
     res.json({
       token,
       user: userDetails
