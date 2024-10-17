@@ -1,6 +1,6 @@
 `CREATE TABLE Users (     user_id SERIAL PRIMARY KEY,     username VARCHAR(100) UNIQUE NOT NULL,     password VARCHAR(255) NOT NULL,     role VARCHAR(50) CHECK (role IN ('Admin', 'Doctor', 'Receptionist', 'Patient')),     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ); `
 
-`CREATE TABLE Patients (     patient_id SERIAL PRIMARY KEY,     user_id INT REFERENCES Users(user_id) ON DELETE CASCADE,     name VARCHAR(100) NOT NULL,     age INT,     gender VARCHAR(10),     contact_info VARCHAR(100),     medical_history TEXT,     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ); `
+`CREATE TABLE Patients (     patient_id SERIAL PRIMARY KEY,     user_id INT REFERENCES Users(user_id) ON DELETE CASCADE,     name VARCHAR(100) NOT NULL,     age INT,     gender VARCHAR(10),     contact_info VARCHAR(100),     medical_history TEXT,     balance NUMERIC(10, 2) DEFAULT 5000,     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP );`
 
 `CREATE TABLE Doctors (     doctor_id SERIAL PRIMARY KEY,     user_id INT REFERENCES Users(user_id) ON DELETE CASCADE,     name VARCHAR(100) NOT NULL,     specialization VARCHAR(100),     contact_info VARCHAR(100),     availability_schedule TEXT,  -- You can store available days and times as JSON or Text     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ); `
 

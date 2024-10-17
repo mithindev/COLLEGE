@@ -9,8 +9,8 @@ app.use(express.json());
 const authRoutes = require('./routes/auth');       // Authentication routes
 const patientRoutes = require('./routes/patients'); // Patient routes
 const doctorRoutes = require('./routes/doctors');   // Doctor routes
-const appointmentRoutes = require('./routes/appointments'); 
 const adminRoutes = require('./routes/admin'); 
+const paymentRoutes = require('./routes/payment'); 
 
 // Basic route for health check
 const cors = require('cors');
@@ -24,8 +24,8 @@ app.get('/', (req, res) => {
 app.use('/api/auth', authRoutes);
 app.use('/api/patient', patientRoutes); 
 app.use('/api/doctors', doctorRoutes); 
-app.use('/api/appointments', appointmentRoutes);
 app.use('/api/admin', adminRoutes);
+app.use('/api/payment', paymentRoutes);
 
 // Start the server
 if (process.env.NODE_ENV !== 'test') {
