@@ -782,3 +782,67 @@ Caused by: java.net.URISyntaxException: Illegal character in scheme name at inde
 Jan 03, 2025 11:06:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 1
 2025.01.03 11:06:45 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:48:44 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:48:44 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:48:44 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:48:44 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:48:44 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:48:44 WARN  Could not find semantic tokens for: file:///Users/mithindev/Desktop/COLLEGE/BIG%20DATA/hello-scala/dev.scala
+2025.01.03 11:48:47 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:48:49 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:01 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:01 WARN  Could not find semantic tokens for: file:///Users/mithindev/Desktop/COLLEGE/BIG%20DATA/hello-scala/dev.scala
+2025.01.03 11:49:01 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:02 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:02 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:02 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:02 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:03 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:11 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:23 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:23 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:23 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:24 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:24 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:24 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:24 WARN  no build target for: /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala
+2025.01.03 11:49:24 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:26 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:26 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:26 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:26 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:27 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:27 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:27 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:27 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:27 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:28 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:28 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:29 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:29 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:29 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:29 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:30 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:30 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:30 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:30 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:30 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:31 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:30 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:31 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:31 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:31 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:32 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:32 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:36 WARN  no build target for: /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala
+2025.01.03 11:49:36 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 11:49:37 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
