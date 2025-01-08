@@ -873,3 +873,10 @@ WARNING: Unmatched cancel notification for request id 1
 2025.01.03 20:17:44 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
 2025.01.03 20:17:44 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
 2025.01.03 20:17:44 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 20:52:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 20:52:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 20:52:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.03 20:52:42 INFO  Shutting down server
+2025.01.03 20:52:42 INFO  shutting down Metals
+2025.01.03 20:52:42 INFO  Shut down connection with build server.
+2025.01.03 20:52:42 INFO  Exiting server

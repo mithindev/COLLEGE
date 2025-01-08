@@ -1,0 +1,11 @@
+2025.01.08 14:22:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Jan 08, 2025 2:22:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2025.01.08 14:22:16 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.08 14:22:16 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.08 14:22:16 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.08 14:22:16 WARN  no build target for: /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala[0m
+2025.01.08 14:22:16 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.08 14:22:16 WARN  Could not find semantic tokens for: file:///Users/mithindev/Desktop/COLLEGE/BIG%20DATA/hello-scala/dev.scala[0m
+2025.01.08 14:22:18 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.08 14:22:18 WARN  Could not find semantic tokens for: file:///Users/mithindev/Desktop/COLLEGE/BIG%20DATA/hello-scala/dev.scala[0m
