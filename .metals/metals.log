@@ -9,3 +9,37 @@ WARNING: Unmatched cancel notification for request id 2
 2025.01.08 14:22:16 WARN  Could not find semantic tokens for: file:///Users/mithindev/Desktop/COLLEGE/BIG%20DATA/hello-scala/dev.scala[0m
 2025.01.08 14:22:18 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
 2025.01.08 14:22:18 WARN  Could not find semantic tokens for: file:///Users/mithindev/Desktop/COLLEGE/BIG%20DATA/hello-scala/dev.scala[0m
+2025.01.08 14:22:21 INFO  Running List(/Users/mithindev/Library/Application Support/Coursier/bin/scala-cli, setup-ide, /Users/mithindev/Desktop/COLLEGE)[0m
+2025.01.08 14:22:22 INFO  Attempting to connect to the build server...[0m
+2025.01.08 14:22:22 INFO  Running BSP server List(/Users/mithindev/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/mithindev/Desktop/COLLEGE/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/mithindev/Desktop/COLLEGE/.scala-build/ide-launcher-options.json, --envs-file, /Users/mithindev/Desktop/COLLEGE/.scala-build/ide-envs.json, /Users/mithindev/Desktop/COLLEGE)[0m
+2025.01.08 14:22:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mithindev/Desktop/COLLEGE/.metals/bsp.trace.json or /Users/mithindev/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.01.08 14:22:22 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.08 14:22:22 INFO  BSP server: Starting compilation server[0m
+2025.01.08 14:22:22 WARN  Could not find semantic tokens for: file:///Users/mithindev/Desktop/COLLEGE/BIG%20DATA/hello-scala/dev.scala[0m
+2025.01.08 14:22:25 INFO  time: Connected to build server in 3.53s[0m
+2025.01.08 14:22:25 INFO  Connected to Build server: scala-cli v1.5.4[0m
+2025.01.08 14:22:25 INFO  running doctor check[0m
+2025.01.08 14:22:25 INFO  java targets: COLLEGE_b33753b731-test, COLLEGE_b33753b731[0m
+2025.01.08 14:22:25 INFO  compiling college_b33753b731 (2 scala sources)[0m
+2025.01.08 14:22:25 INFO  time: compiled COLLEGE_b33753b731 in 0.78s[0m
+2025.01.08 14:22:36 INFO  time: indexed workspace in 11s[0m
+2025.01.08 14:22:38 WARN  Could not find semantic tokens for: file:///Users/mithindev/Desktop/COLLEGE/BIG%20DATA/hello-scala/dev.scala[0m
+2025.01.08 14:22:40 WARN  Could not find semantic tokens for: file:///Users/mithindev/Desktop/COLLEGE/BIG%20DATA/hello-scala/dev.scala[0m
+2025.01.08 14:24:46 INFO  compiling college_b33753b731 (1 scala source)[0m
+2025.01.08 14:24:48 INFO  time: compiled COLLEGE_b33753b731 in 2.67s[0m
+2025.01.08 14:28:51 INFO  compiling college_b33753b731 (1 scala source)[0m
+2025.01.08 14:28:51 INFO  time: compiled COLLEGE_b33753b731 in 0.41s[0m
+2025.01.08 14:28:57 INFO  compiling college_b33753b731 (1 scala source)[0m
+2025.01.08 14:28:57 INFO  time: compiled COLLEGE_b33753b731 in 0.25s[0m
+2025.01.08 14:29:12 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev1.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:29:12 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev1.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:29:12 WARN  Could not find semantic tokens for: file:///Users/mithindev/Desktop/COLLEGE/BIG%20DATA/hello-scala/dev1.scala[0m
+2025.01.08 14:29:12 INFO  compiling college_b33753b731 (1 scala source)[0m
+2025.01.08 14:29:12 INFO  running doctor check[0m
+2025.01.08 14:29:12 INFO  java targets: COLLEGE_b33753b731-test, COLLEGE_b33753b731[0m
+2025.01.08 14:29:12 INFO  time: compiled COLLEGE_b33753b731 in 46ms[0m
+2025.01.08 14:29:13 INFO  time: indexed workspace in 1.11s[0m
+2025.01.08 14:29:14 INFO  compiling college_b33753b731 (1 scala source)[0m
+2025.01.08 14:29:14 INFO  time: compiled COLLEGE_b33753b731 in 0.24s[0m
+2025.01.08 14:31:31 INFO  compiling college_b33753b731 (1 scala source)[0m
+2025.01.08 14:31:31 INFO  time: compiled COLLEGE_b33753b731 in 0.23s[0m

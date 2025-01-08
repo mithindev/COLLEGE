@@ -1,0 +1,20 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "/Users/mithindev/Library/Application Support/Coursier/bin/.scala-cli.aux",
+    "bsp",
+    "--json-options",
+    "/Users/mithindev/Desktop/COLLEGE/.scala-build/ide-options-v2.json",
+    "--json-launcher-options",
+    "/Users/mithindev/Desktop/COLLEGE/.scala-build/ide-launcher-options.json",
+    "--envs-file",
+    "/Users/mithindev/Desktop/COLLEGE/.scala-build/ide-envs.json",
+    "/Users/mithindev/Desktop/COLLEGE"
+  ],
+  "version": "1.5.4",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}
