@@ -43,3 +43,54 @@ WARNING: Unmatched cancel notification for request id 2
 2025.01.08 14:29:14 INFO  time: compiled COLLEGE_b33753b731 in 0.24s[0m
 2025.01.08 14:31:31 INFO  compiling college_b33753b731 (1 scala source)[0m
 2025.01.08 14:31:31 INFO  time: compiled COLLEGE_b33753b731 in 0.23s[0m
+2025.01.08 14:37:05 INFO  compiling college_b33753b731 (1 scala source)[0m
+2025.01.08 14:37:05 INFO  time: compiled COLLEGE_b33753b731 in 0.15s[0m
+2025.01.08 14:37:34 INFO  compiling college_b33753b731 (1 scala source)[0m
+2025.01.08 14:37:34 INFO  time: compiled COLLEGE_b33753b731 in 0.14s[0m
+2025.01.08 14:42:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:42:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:42:13 WARN  Could not find semantic tokens for: file:///Users/mithindev/Desktop/COLLEGE/BIG%20DATA/hello-scala/dev2.scala[0m
+2025.01.08 14:42:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:42:15 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:42:16 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:42:16 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:42:16 WARN  no build target for: /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala[0m
+2025.01.08 14:42:16 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:42:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:42:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:42:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:42:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:42:20 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:42:20 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:42:22 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:42:22 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:42:54 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:42:54 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:42:54 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:42:55 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:43:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:43:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:43:15 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:43:15 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:43:31 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:43:50 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.08 14:43:50 INFO  Shutting down server[0m
+2025.01.08 14:43:50 INFO  shutting down Metals[0m
+2025.01.08 14:43:51 INFO  Shut down connection with build server.[0m
+2025.01.08 14:43:50 INFO  Exiting server[0m
+2025.01.09 14:47:40 INFO  Started: Metals version 1.4.2 in folders '/Users/mithindev/Desktop/COLLEGE' for client Visual Studio Code 1.96.2.
+2025.01.09 14:47:40 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.09 14:47:41 INFO  Attempting to connect to the build server...
+2025.01.09 14:47:41 INFO  Running BSP server List(/Users/mithindev/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/mithindev/Desktop/COLLEGE/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/mithindev/Desktop/COLLEGE/.scala-build/ide-launcher-options.json, --envs-file, /Users/mithindev/Desktop/COLLEGE/.scala-build/ide-envs.json, /Users/mithindev/Desktop/COLLEGE)
+2025.01.09 14:47:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mithindev/Desktop/COLLEGE/.metals/bsp.trace.json or /Users/mithindev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.01.09 14:47:41 INFO  BSP server: Starting compilation server
+2025.01.09 14:47:43 INFO  time: Connected to build server in 2.42s
+2025.01.09 14:47:43 INFO  Connected to Build server: scala-cli v1.5.4
+2025.01.09 14:47:43 INFO  compiling college_b33753b731 (1 scala source)
+2025.01.09 14:47:47 INFO  running doctor check
+2025.01.09 14:47:47 INFO  java targets: COLLEGE_b33753b731-test, COLLEGE_b33753b731
+Jan 09, 2025 2:47:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Jan 09, 2025 2:47:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2025.01.09 14:47:48 INFO  time: indexed workspace in 1.95s

@@ -1,6 +1,6 @@
 object MatrixOperations {
   def main(args: Array[String]): Unit = {
-    // Step 1: Create multi-dimensional arrays using Array of Array
+
     val matrix1: Array[Array[Int]] = Array(
       Array(1, 2, 3),
       Array(4, 5, 6),
@@ -19,7 +19,6 @@ object MatrixOperations {
       Array(3, 3, 3)
     )
 
-    // Step 2: Add three matrices
     def addMatrices(m1: Array[Array[Int]], m2: Array[Array[Int]], m3: Array[Array[Int]]): Array[Array[Int]] = {
       val rows = m1.length
       val cols = m1(0).length
@@ -33,7 +32,6 @@ object MatrixOperations {
 
     val resultMatrix = addMatrices(matrix1, matrix2, matrix3)
 
-    // Step 3: Print the result
     println("Matrix 1:")
     printMatrix(matrix1)
     println("\nMatrix 2:")
@@ -44,7 +42,7 @@ object MatrixOperations {
     printMatrix(resultMatrix)
   }
 
-  // Helper function to print a matrix
+
   def printMatrix(matrix: Array[Array[Int]]): Unit = {
     matrix.foreach(row => println(row.mkString(" ")))
   }
