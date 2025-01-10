@@ -94,3 +94,890 @@ WARNING: Unmatched cancel notification for request id 1
 Jan 09, 2025 2:47:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 3
 2025.01.09 14:47:48 INFO  time: indexed workspace in 1.95s
+2025.01.09 17:17:34 INFO  Shutting down server
+2025.01.09 17:17:34 INFO  shutting down Metals
+2025.01.09 17:17:34 INFO  Shut down connection with build server.
+2025.01.09 17:17:34 INFO  Exiting server
+2025.01.10 09:03:43 INFO  Started: Metals version 1.4.2 in folders '/Users/mithindev/Desktop/COLLEGE' for client Visual Studio Code 1.96.2.[0m
+2025.01.10 09:03:44 INFO  Attempting to connect to the build server...[0m
+2025.01.10 09:03:44 INFO  Running BSP server List(/Users/mithindev/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/mithindev/Desktop/COLLEGE/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/mithindev/Desktop/COLLEGE/.scala-build/ide-launcher-options.json, --envs-file, /Users/mithindev/Desktop/COLLEGE/.scala-build/ide-envs.json, /Users/mithindev/Desktop/COLLEGE)[0m
+2025.01.10 09:03:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mithindev/Desktop/COLLEGE/.metals/bsp.trace.json or /Users/mithindev/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.01.10 09:03:46 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/dev2.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.10 09:03:46 INFO  time: Connected to build server in 1.85s[0m
+2025.01.10 09:03:46 INFO  Connected to Build server: scala-cli v1.5.4[0m
+2025.01.10 09:03:46 INFO  running doctor check[0m
+2025.01.10 09:03:46 INFO  java targets: COLLEGE_b33753b731-test, COLLEGE_b33753b731[0m
+2025.01.10 09:03:48 INFO  time: indexed workspace in 1.57s[0m
+2025.01.10 09:04:20 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:20 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:20 WARN  no build target for: /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala[0m
+2025.01.10 09:04:20 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:20 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:33 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:33 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:33 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:33 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:33 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:33 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:33 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:33 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:33 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:33 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:33 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:33 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:38 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:38 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:38 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:38 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:38 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:38 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:39 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:38 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:38 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:41 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:41 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:41 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:41 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:41 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:41 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:41 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:41 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:58 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:58 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:58 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:58 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:04:58 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:01 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:01 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:01 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:01 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:01 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:01 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:02 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:02 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:02 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:02 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:02 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:02 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:02 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:03 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:03 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:03 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:07 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:07 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:07 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:08 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:26 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:26 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:26 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:26 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:26 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:26 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:26 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:27 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:26 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:26 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:27 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+Jan 10, 2025 9:05:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 168
+2025.01.10 09:05:27 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:27 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:27 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:27 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:29 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:29 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:29 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:29 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:29 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:30 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:30 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:29 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:31 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:31 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:31 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:32 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:32 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:32 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:32 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:32 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:35 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:35 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:35 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:35 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:35 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:41 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:41 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:41 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:41 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:46 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:46 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:46 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:49 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:49 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:49 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:49 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:58 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:58 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:05:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:01 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:01 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:01 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:01 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:01 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:02 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:06 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:06 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:07 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:07 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:06 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:07 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:07 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:15 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:15 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:15 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:18 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:18 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:19 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:18 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:21 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:21 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:21 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:22 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:22 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:22 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:25 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:25 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:25 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:25 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:28 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:28 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:28 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:29 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:29 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:29 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:29 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:36 WARN  no build target for: /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala[0m
+2025.01.10 09:06:36 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:36 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:39 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:41 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:41 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:44 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:44 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:44 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:44 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:47 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:49 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:06:52 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:07:11 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:07:11 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:07:12 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:07:12 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:07:11 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:07:12 WARN  no build target for: /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala[0m
+2025.01.10 09:07:12 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:07:11 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:07:23 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:07:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:07:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:07:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:07:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:07:50 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:07:50 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:07:50 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:07:56 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:07:56 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:07:56 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:08:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:08:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:08:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:08:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:08:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:08:58 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:08:58 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:08:58 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:08:59 WARN  no build target for: /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala[0m
+2025.01.10 09:08:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:08 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:08 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:10 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:10 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:10 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:11 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:12 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:12 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:14 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:15 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:15 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:14 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:15 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:14 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:15 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:14 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:15 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:15 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:18 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:18 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:18 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:18 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:18 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:20 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:25 WARN  no build target for: /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala[0m
+2025.01.10 09:09:25 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:25 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:37 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:09:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+Jan 10, 2025 9:09:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: Range [687, 706) out of bounds for length 693
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: Range [687, 706) out of bounds for length 693
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.StringIndexOutOfBoundsException: Range [687, 706) out of bounds for length 693
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:679)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:59)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:55)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:54)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2025.01.10 09:09:56 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:10:10 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:10:14 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+Jan 10, 2025 9:10:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: Range [687, 706) out of bounds for length 693
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: Range [687, 706) out of bounds for length 693
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.StringIndexOutOfBoundsException: Range [687, 706) out of bounds for length 693
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:679)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:59)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:55)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:54)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2025.01.10 09:11:54 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:11:54 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:11:54 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:11:55 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:11:55 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:11:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:11:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:11:58 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:11:58 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:11:58 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:11:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:01 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:03 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:03 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:03 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:07 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:10 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:10 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:10 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:10 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:11 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:11 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:11 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:11 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:11 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:14 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:14 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:14 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:14 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:14 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:16 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:16 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:18 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:18 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:32 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:32 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:37 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:43 WARN  Could not find semantic tokens for: file:///Users/mithindev/Desktop/COLLEGE/BIG%20DATA/hello-scala/RatingsBreak.scala[0m
+2025.01.10 09:12:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:43 WARN  Could not find semantic tokens for: file:///Users/mithindev/Desktop/COLLEGE/BIG%20DATA/hello-scala/RatingsBreak.scala[0m
+2025.01.10 09:12:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:47 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:48 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:47 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:48 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:48 WARN  Could not find semantic tokens for: file:///Users/mithindev/Desktop/COLLEGE/BIG%20DATA/hello-scala/RatingsBreak.scala[0m
+2025.01.10 09:12:47 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:48 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:47 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:48 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:48 WARN  no build target for: /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala[0m
+2025.01.10 09:12:49 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:49 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:12:49 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:04 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:04 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:04 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:04 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:06 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:06 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:19 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:19 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:19 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:21 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:21 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:21 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:25 WARN  no build target for: /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala[0m
+2025.01.10 09:13:25 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:39 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:58 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:58 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:13:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:14:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:14:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:14:01 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:14:37 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:14:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:14:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:14:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:14:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:14:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:14:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:14:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:14:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:14:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:14:46 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:14:47 WARN  no build target for: /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala[0m
+2025.01.10 09:14:47 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:14:47 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:14:52 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:14:52 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:14:52 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:15:33 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:15:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+Jan 10, 2025 9:15:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: Range [881, 912) out of bounds for length 693
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: Range [881, 912) out of bounds for length 693
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.StringIndexOutOfBoundsException: Range [881, 912) out of bounds for length 693
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:679)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:59)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:55)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:54)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2025.01.10 09:15:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:15:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:15:35 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:15:35 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:15:36 WARN  no build target for: /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala[0m
+2025.01.10 09:15:36 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:15:40 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:15:56 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:15:56 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:15:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:15:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:15:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:15:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:01 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:01 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:02 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:02 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:04 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:06 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:08 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:10 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:10 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:11 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:15 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:15 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:16 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:16 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:16 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:21 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:28 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:28 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:29 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:29 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:29 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:31 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:31 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:31 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:31 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:31 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:33 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:33 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:33 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:33 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:33 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:35 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:16:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:01 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:03 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:03 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:03 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:06 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:06 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:07 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:08 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:10 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:10 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:10 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:12 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:12 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:12 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:14 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:14 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:14 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:14 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:16 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:16 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:18 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:18 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:40 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:40 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:40 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:40 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:41 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:44 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:44 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:45 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:17:45 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:18:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:18:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:18:06 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:18:06 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:18:08 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:18:08 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:18:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:18:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:18:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:18:11 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:18:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:18:14 WARN  no build target for: /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala[0m
+2025.01.10 09:18:14 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:18:15 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:19:22 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:19:24 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:19:24 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:19:28 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:19:29 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:19:29 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:19:30 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:19:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:19:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:19:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:19:35 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:19:38 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:19:38 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:19:39 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:19:40 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:19:41 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:19:41 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:19:46 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:19:46 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:19:50 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:20:05 WARN  no build target for: /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala[0m
+2025.01.10 09:20:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:20:08 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:20:08 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:21:24 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:21:24 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:21:24 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:21:25 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:21:25 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:21:25 WARN  no build target for: /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala[0m
+2025.01.10 09:21:25 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:22:08 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:22:08 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:22:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:23:55 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:23:55 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:23:55 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:23:56 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:23:56 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:23:56 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:23:56 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:23:56 WARN  no build target for: /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala[0m
+2025.01.10 09:23:56 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:11 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:11 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:11 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:11 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:12 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:12 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:12 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:13 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:14 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:14 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:16 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:16 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:52 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:52 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:53 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:55 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:55 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:55 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:56 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:56 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:58 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:58 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:58 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:24:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:01 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:02 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:04 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:06 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:08 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:11 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:11 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:11 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:11 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:11 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:16 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:16 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:16 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:18 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:18 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:20 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:27 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:28 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:30 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:37 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:37 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:25:37 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:00 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:02 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:02 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:03 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:03 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:06 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:06 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:06 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:50 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:51 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:54 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:54 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:54 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:54 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:57 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:58 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:58 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:29:59 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:30:02 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:30:02 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:30:03 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:30:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:30:05 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:30:16 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:30:16 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:30:16 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:30:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:30:19 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:30:19 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:30:19 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:30:20 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:30:20 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:30:23 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:30:42 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:30:45 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:30:45 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:09 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:10 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:10 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:14 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:14 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:14 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:14 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:15 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:15 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:15 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:17 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:18 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:19 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:19 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:19 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:21 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:21 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:22 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:22 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:24 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:24 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:24 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:24 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:25 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:25 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:25 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:28 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:28 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:28 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:28 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:28 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:28 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:30 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:30 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:30 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:30 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:30 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:31 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:31 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:31 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:32 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:32 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:32 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:32 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:34 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:35 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:37 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:37 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:39 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:39 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:40 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:41 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:41 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:43 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:45 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:45 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:31:46 INFO  no build target found for /Users/mithindev/Desktop/COLLEGE/BIG DATA/hello-scala/RatingsBreak.scala. Using presentation compiler with project's scala-library version: 3.5.2[0m
+2025.01.10 09:32:01 INFO  Shutting down server[0m
+2025.01.10 09:32:01 INFO  shutting down Metals[0m
+2025.01.10 09:32:01 INFO  Shut down connection with build server.[0m
+2025.01.10 09:32:01 INFO  Exiting server[0m
